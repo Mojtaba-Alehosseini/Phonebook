@@ -1,6 +1,5 @@
-// proje contact /term1 mabani /ostad abbasi/ mojtaba alehoseini/ yousef rastgoo/ 28/9/1396
-// 1st bug: vaghti bejaye adad ya shomare enter ro mizani miofte too halghe
-//licence key :    MojtabaC++Yousef
+//  Mojtaba alehosseini/ 28/9/1396 / 19/12/2017
+//licence key :    mojtaba
 
 #include "stdafx.h"
 #include <iostream>
@@ -176,7 +175,7 @@ void check_licence()
 		a = int(c[i]);
 		s += a;
 	}
-	if (s == 1490)
+	if (s == 734)
 	{
 		cout << "thanks for buy\n";
 		full_version();
@@ -353,12 +352,12 @@ void about(int d)
 		cout << "\n\t\t\t    Demo Mode\n\t\t     please buy a full version\n";
 	else
 		cout << "\n\t\t\t   Full Version\n\t\t  Thanks for buy a full version\n";
-	cout << "\n \t\t\t PhonBook Project\n\t\t\t    Supervisor:\n\t\t\t Dr Elham Abbasi\n\t\t\t   developed by:\n\t\tMojtaba Alehoseini & Yousef Rastgoo\n\t\t\t    28/9/1396\n";
+	cout << "\n \t\t\t PhonBook Project\n\t\t\t    Supervisor:\n\t\t\t Dr Elham Abbasi\n\t\t\t   developed by:\n\t\tMojtaba Alehoseini & Yousef Rastgoo\n\t\t\t    28/9/1396\n"; // 19/12/2017
 }
 
 void contact_us()
 {
-	cout << "\n\tways to contact with us:\n\n\t     Email:     alehoseini.mojtaba@gmail.com\n\t Phone Number:  +989120211520\n";
+	cout << "\n\tways to contact with us:\n\n\t     Email:     alehoseini.mojtaba@gmail.com\n";
 }
 
 int main()
